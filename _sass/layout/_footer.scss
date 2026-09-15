@@ -3,6 +3,7 @@
    ========================================================================== */
 
 .page__footer {
+  display: none;
   @include clearfix;
   background-color: var(--global-footer-bg-color);
   color: var(--global-text-color-light);
@@ -93,4 +94,19 @@
       white-space: nowrap;
     }
   }
+}
+
+html,
+body {
+  min-height: 0 !important;
+}
+
+body {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+#main {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
 }

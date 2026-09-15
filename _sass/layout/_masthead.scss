@@ -69,13 +69,31 @@
 .masthead__menu-item.selected a {
   color: var(--global-text-color);
   font-weight: 700;
-  border-bottom: 2px solid var(--global-text-color);
-  pointer-events: none; /* Move this here */
-  cursor: default; /* Move this here too */
+  border-bottom: none;
+  pointer-events: auto; /* Move this here */
+  cursor: pointer; /* Move this here too */
 }
 
 .masthead__menu-item.selected a:hover {
   color: var(--global-text-color);
-  border-bottom: 2px solid var(--global-text-color);
+  border-bottom: none;
   /* No need to repeat pointer-events and cursor here */
+}
+
+/* Remove orange focus box */
+.masthead a:focus,
+.masthead a:focus-visible,
+.masthead a:active {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+/* Remove orange focus box from sidebar links */
+.sidebar a,
+.sidebar a:focus,
+.sidebar a:focus-visible,
+.sidebar a:active {
+  outline: none !important;
+  box-shadow: none !important;
 }
