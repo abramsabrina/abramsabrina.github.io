@@ -180,8 +180,7 @@
 }
 
 .author__name {
-  margin-top: 0px;
-  margin-bottom: 8px;
+  margin: 0;
 
   @include breakpoint($large) {
     margin-top: 10px;
@@ -324,36 +323,20 @@
   }
 }
 
+/* Mobile author profile */
 @media screen and (max-width: 1023px) {
 
-  /* Force author profile into 2 columns */
-  .author__avatar {
-    display: table-cell;
-    vertical-align: top;
-    width: 100px;
-  }
-
-  .author__content {
-    display: table-cell;
-    vertical-align: top;
-    padding-left: 15px;
-    padding-right: 0;
-  }
-
-  /* Make links part of the right-hand column */
-  .author__urls-wrapper {
-    display: block;
-    position: static;
-  }
-
+  /* Hide the repeated postdoc bio */
   .author__bio {
     display: none;
   }
 
+  /* Hide Follow button */
   .author__urls-wrapper button {
     display: none;
   }
 
+  /* Show contact information */
   .sidebar .author__desktop {
     display: block;
   }
@@ -374,14 +357,16 @@
     display: none;
   }
 
-  /* Less space above, more below */
+  /* Less space above the profile */
   .sidebar {
-    margin-top: 0.25em;
-    margin-bottom: 1.5em;
-    padding-top: 0;
+    padding-top: 15px;
   }
 
-  /* Hide profile on selected pages */
+  /* More space below the profile */
+  .author__content {
+    margin-bottom: 20px;
+  }
+
   .no-mobile-profile .sidebar {
     display: none;
   }
