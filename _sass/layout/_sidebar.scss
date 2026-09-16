@@ -322,3 +322,38 @@
     }
   }
 }
+
+/* Mobile author profile */
+@media screen and (max-width: 1023px) {
+
+  /* Hide the repeated postdoc bio */
+  .author__bio {
+    display: none;
+  }
+
+  /* Hide Follow button */
+  .author__urls-wrapper button {
+    display: none;
+  }
+
+  /* Show contact information */
+  .sidebar .author__desktop {
+    display: block;
+  }
+
+  .author__urls {
+    display: block;
+    position: static;
+    margin: 8px 0 0 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+    z-index: auto;
+  }
+
+  .author__urls:before,
+  .author__urls:after {
+    display: none;
+  }
+}
