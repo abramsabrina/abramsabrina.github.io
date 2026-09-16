@@ -322,3 +322,12 @@
     }
   }
 }
+
+/* Larger profile photo on mobile only */
+@media (max-width: 600px) {
+  .author__avatar img {
+    width: 100px !important;
+    height: 100px !important;
+    max-width: none !important;
+  }
+}
