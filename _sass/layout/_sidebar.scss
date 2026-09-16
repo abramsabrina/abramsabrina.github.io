@@ -237,12 +237,16 @@
   }
 
   button {
-    display: none;
+    margin-bottom: 0;
+
+    @include breakpoint($large) {
+      display: none;
+    }
   }
 }
 
 .author__urls {
-  display: block;
+  display: none;
   position: absolute;
   right: 0;
   margin-top: 15px;
