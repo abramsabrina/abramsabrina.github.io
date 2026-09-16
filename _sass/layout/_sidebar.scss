@@ -326,6 +326,17 @@
 /* Mobile author profile */
 @media screen and (max-width: 1023px) {
 
+  /* Reduce space above the profile */
+  .sidebar {
+    margin-top: 0.25em;
+    padding-top: 0;
+  }
+
+  /* Hide author name since it is already in the header */
+  .author__name {
+    display: none;
+  }
+
   /* Hide the repeated postdoc bio */
   .author__bio {
     display: none;
@@ -357,7 +368,7 @@
     display: none;
   }
 
-  /* Hide profile on selected pages */
+  /* Hide author profile on selected pages */
   .no-mobile-profile .sidebar {
     display: none;
   }
