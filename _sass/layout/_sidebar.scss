@@ -369,7 +369,7 @@
   }
 
   /* Hide author profile on selected pages */
-  .no-mobile-profile .sidebar {
-    display: none;
+  body.no-mobile-profile .sidebar {
+    display: none !important;
   }
 }
