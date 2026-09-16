@@ -62,7 +62,7 @@ redirect_from:
 
 <div class="research-section">
 
-  <img src="/images/R2.png" alt="">
+  <img src="/images/R3.png" alt="">
 
   <p>
     Humans are remarkably adept at optimizing their movements in new environments, rapidly searching a vast space of possible solutions. My research examined how humans solve this problem by studying how they learn to walk with robotic exoskeletons. This work showed that humans optimize their movements to minimize energetic cost and use global search to identify relevant dimensions before shifting to local optimization. These insights into explore-exploit strategies provide behavioral markers for human-in-the-loop optimization.
