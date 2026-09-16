@@ -324,20 +324,36 @@
   }
 }
 
-/* Mobile author profile */
 @media screen and (max-width: 1023px) {
 
-  /* Hide the repeated postdoc bio */
+  /* Force author profile into 2 columns */
+  .author__avatar {
+    display: table-cell;
+    vertical-align: top;
+    width: 100px;
+  }
+
+  .author__content {
+    display: table-cell;
+    vertical-align: top;
+    padding-left: 15px;
+    padding-right: 0;
+  }
+
+  /* Make links part of the right-hand column */
+  .author__urls-wrapper {
+    display: block;
+    position: static;
+  }
+
   .author__bio {
     display: none;
   }
 
-  /* Hide Follow button */
   .author__urls-wrapper button {
     display: none;
   }
 
-  /* Show contact information */
   .sidebar .author__desktop {
     display: block;
   }
@@ -358,13 +374,14 @@
     display: none;
   }
 
-  /* Reduce space above profile on mobile */
-.sidebar {
-  margin-top: 0.25em;
-  margin-bottom: 1.5em;
-  padding-top: 0;
-}
+  /* Less space above, more below */
+  .sidebar {
+    margin-top: 0.25em;
+    margin-bottom: 1.5em;
+    padding-top: 0;
+  }
 
+  /* Hide profile on selected pages */
   .no-mobile-profile .sidebar {
     display: none;
   }
