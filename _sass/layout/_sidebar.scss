@@ -237,11 +237,7 @@
   }
 
   button {
-    margin-bottom: 0;
-
-    @include breakpoint($large) {
-      display: none;
-    }
+    display: none;
   }
 }
 
@@ -320,34 +316,5 @@
     &:hover {
       text-decoration: underline;
     }
-  }
-}
-
-@include breakpoint(max-width $large) {
-
-  .author__urls-wrapper {
-    display: block;
-    width: 100%;
-    margin-top: 15px;
-  }
-
-  .author__urls-wrapper button {
-    display: none !important;
-  }
-
-  .author__urls {
-    display: block !important;
-    position: static;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    background: transparent;
-    box-shadow: none;
-    z-index: auto;
-  }
-
-  .author__urls:before,
-  .author__urls:after {
-    display: none;
   }
 }
