@@ -371,4 +371,10 @@
   .sidebar.no-mobile-author-profile {
     display: none;
   }
+
+  .talk-video {
+    width: 100% !important;
+    max-width: 100% !important;
+    aspect-ratio: 16 / 9;
+  }
 }
