@@ -322,3 +322,9 @@
     }
   }
 }
+
+@media (max-width: 600px) {
+  .author__urls-wrapper button {
+    display: none !important;
+  }
+}
