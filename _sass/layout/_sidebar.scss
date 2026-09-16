@@ -326,29 +326,62 @@
 /* Mobile author profile */
 @media screen and (max-width: 1023px) {
 
-  /* Hide the repeated postdoc bio */
-  .author__bio {
+  /* Turn author profile into a 2-column grid */
+  .sidebar > div[itemtype="http://schema.org/Person"] {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    column-gap: 18px;
+    align-items: start;
+  }
+
+  /* COLUMN 1: photo */
+  .author__avatar {
+    display: block;
+    width: 100px;
+    grid-column: 1;
+    grid-row: 1 / span 2;
+  }
+
+  .author__avatar img {
+    width: 100px;
+    max-width: 100px;
+    height: auto;
+  }
+
+  /* COLUMN 2: name */
+  .author__content {
+    display: block;
+    grid-column: 2;
+    grid-row: 1;
+    padding: 0;
+    width: auto;
+  }
+
+  .author__name {
+    white-space: nowrap;
+    margin: 0 0 8px 0;
+  }
+
+  /* Don't repeat postdoc description */
+  .author__bio,
+  .author__pronouns {
     display: none;
   }
 
-  /* Make the photo slightly smaller to leave more horizontal room */
-  .author__avatar {
-    width: 85px;
+  /* COLUMN 2: contact details */
+  .author__urls-wrapper {
+    display: block;
+    grid-column: 2;
+    grid-row: 2;
+    width: auto;
   }
 
-  /* Give the name more room */
-  .author__content {
-    padding-left: 12px;
-    padding-right: 15px;
-    white-space: nowrap;
-  }
-
-  /* Hide Follow button */
+  /* No Follow button */
   .author__urls-wrapper button {
     display: none;
   }
 
-  /* Show contact information */
+  /* Show location, Berkeley, email */
   .sidebar .author__desktop {
     display: block;
   }
@@ -356,7 +389,7 @@
   .author__urls {
     display: block;
     position: static;
-    margin: 8px 0 0 0;
+    margin: 0;
     padding: 0;
     border: 0;
     background: transparent;
@@ -366,10 +399,6 @@
 
   .author__urls:before,
   .author__urls:after {
-    display: none;
-  }
-
-  .no-mobile-profile .sidebar {
     display: none;
   }
 }
