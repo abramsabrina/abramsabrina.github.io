@@ -323,7 +323,7 @@
   }
 }
 
-@media (max-width: 600px) {
+@include breakpoint(max-width $large) {
 
   .author__urls-wrapper {
     display: block;
