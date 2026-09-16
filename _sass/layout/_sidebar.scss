@@ -357,16 +357,7 @@
     display: none;
   }
 
-  /* Less space above the profile */
-  .sidebar {
-    padding-top: 15px;
-  }
-
-  /* More space below the profile */
-  .author__content {
-    margin-bottom: 20px;
-  }
-
+  /* Hide profile on selected pages */
   .no-mobile-profile .sidebar {
     display: none;
   }
