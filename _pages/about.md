@@ -31,13 +31,11 @@ redirect_from:
   How does agency shape what humans value?
 </h3>
 
-<div style="display:flex; align-items:flex-start; gap:1.5rem; margin-bottom:1.5rem;">
+<div class="research-section">
 
-  <img src="/images/R1.png"
-       alt=""
-       style="width:300px; max-width:40%; height:auto; flex-shrink:0;">
+  <img src="/images/R1.png" alt="">
 
-  <p style="font-size:0.8rem; margin:0; line-height:1.5; flex:1;">
+  <p>
     My research shows that two sources of agency, action selection and action execution, give rise to distinct cognitive biases. When people are free to select between actions, they amplify the value of positive outcomes, producing an overconfidence bias. When people control the outcomes of their actions, they instead discount the value of negative outcomes, producing a redemption bias. Both biases persist when the two sources of agency are combined, revealing distinct ways in which control shapes learning from experience.
   </p>
 
@@ -47,13 +45,11 @@ redirect_from:
   How does agency influence reinforcement learning in the brain?
 </h3>
 
-<div style="display:flex; align-items:flex-start; gap:1.5rem; margin-bottom:1.5rem;">
+<div class="research-section">
 
-  <img src="/images/R2.png"
-       alt=""
-       style="width:300px; max-width:40%; height:auto; flex-shrink:0;">
+  <img src="/images/R2.png" alt="">
 
-  <p style="font-size:0.8rem; margin:0; line-height:1.5; flex:1;">
+  <p>
     Most decisions involve selecting an action and then executing the response. My research examines how the cerebellum and basal ganglia support reinforcement learning when we have agency over action execution. I developed a computational model to characterize learning in individuals with cerebellar degeneration and Parkinson’s disease, identifying dissociable roles for these two systems. In this form of reinforcement learning, the cerebellum supports value-based learning, whereas the basal ganglia support habit-like processes.
     
   </p>
@@ -64,13 +60,11 @@ redirect_from:
   How do humans adapt to new environments?
 </h3>
 
-<div style="display:flex; align-items:flex-start; gap:1.5rem; margin-bottom:1.5rem;">
+<div class="research-section">
 
-  <img src="/images/R3.png"
-       alt=""
-       style="width:300px; max-width:40%; height:auto; flex-shrink:0;">
+  <img src="/images/R2.png" alt="">
 
-  <p style="font-size:0.8rem; margin:0; line-height:1.5; flex:1;">
+  <p>
     Humans are remarkably adept at optimizing their movements in new environments, rapidly searching a vast space of possible solutions. My research examined how humans solve this problem by studying how they learn to walk with robotic exoskeletons. This work showed that humans optimize their movements to minimize energetic cost and use global search to identify relevant dimensions before shifting to local optimization. These insights into explore-exploit strategies provide behavioral markers for human-in-the-loop optimization.
     
   </p>
