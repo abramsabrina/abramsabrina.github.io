@@ -331,6 +331,18 @@
     display: none;
   }
 
+  /* Make the photo slightly smaller to leave more horizontal room */
+  .author__avatar {
+    width: 85px;
+  }
+
+  /* Give the name more room */
+  .author__content {
+    padding-left: 12px;
+    padding-right: 15px;
+    white-space: nowrap;
+  }
+
   /* Hide Follow button */
   .author__urls-wrapper button {
     display: none;
