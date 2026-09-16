@@ -180,7 +180,8 @@
 }
 
 .author__name {
-  margin: 0;
+  margin-top: 0px;
+  margin-bottom: 8px;
 
   @include breakpoint($large) {
     margin-top: 10px;
@@ -357,13 +358,14 @@
     display: none;
   }
 
-  /* Less space above the profile */
-  .sidebar {
-    padding-top: 15px;
-  }
+  /* Reduce space above profile on mobile */
+.sidebar {
+  margin-top: 0.25em;
+  margin-bottom: 1.5em;
+  padding-top: 0;
+}
 
-  /* More space below the profile */
-  .author__content {
-    margin-bottom: 20px;
+  .no-mobile-profile .sidebar {
+    display: none;
   }
 }
