@@ -68,7 +68,7 @@ redirect_from:
 
 <div class="research-section"
      style="display:flex; align-items:flex-start; gap:1.5rem; margin-bottom:1.5rem;">
-     
+
   <img src="/images/R3.png"
        alt=""
        style="width:300px; max-width:40%; height:auto; flex-shrink:0;">

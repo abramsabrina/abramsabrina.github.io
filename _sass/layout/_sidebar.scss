@@ -323,7 +323,6 @@
   }
 }
 
-/* Mobile author profile */
 @media screen and (max-width: 1023px) {
 
   /* Reduce space above the profile */
@@ -368,8 +367,8 @@
     display: none;
   }
 
-  /* Hide author profile on selected pages */
-  body.no-mobile-profile .sidebar {
-    display: none !important;
+  /* Hide author profile on mobile when requested */
+  .sidebar.no-mobile-author-profile {
+    display: none;
   }
 }
