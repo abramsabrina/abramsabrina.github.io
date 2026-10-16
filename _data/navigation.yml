@@ -24,8 +24,8 @@ main:
   #   url: /year-archive/
     
   - title: "CV"
-    url: ""
-    new_tab: false
+    url: "javascript:void(0)" #"/files/SabrinaAbram_Resume.pdf"
+    new_tab: true
     
   # - title: "CV"
   #   url: /cv-json/
