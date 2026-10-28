@@ -25,7 +25,7 @@ main:
     
   - title: "CV"
     url: "/files/SabrinaAbram_Resume.pdf"
-  #  new_tab: false
+    new_tab: false
     
   # - title: "CV"
   #   url: /cv-json/
