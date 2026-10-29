@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <p style="width:100%; font-size:0.8rem; margin-top:-0.5rem; margin-bottom:0.6rem;">
-  Hi! I’m Sabrina.
+  Welcome! I’m Sabrina.
 </p>
 
 <p style="width:100%; font-size:0.8rem; margin-top:0; margin-bottom:0.6rem;">
